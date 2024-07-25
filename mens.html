@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENS</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            border: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .page2 {
+            object-fit: cover;
+        }
+
+        .mens {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background-color: black;
+            column-gap: 15%;
+
+        }
+
+        .logo {
+            padding: 2%;
+        }
+
+        .buttons {
+            padding-top: 2%;
+            border-top: 10%;
+        }
+
+        .b {
+
+            border: none;
+            color: rgb(255, 255, 255);
+            background-color: black;
+            height: 7vh;
+            width: 19vh;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2vh;
+            cursor: pointer;
+
+        }
+
+        .b:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .iframe {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            overflow-x: scroll;
+            overflow-y: scroll;
+            padding: 1%;
+            scrollbar-width: none;
+            gap: 3%;
+            overflow-wrap: normal;
+        }
+
+        .iframe .image {
+            height: 100%;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .text {
+            padding-left: 1%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .image .image-matter {
+            display: flex;
+            flex-direction: row;
+            gap: 25%;
+        }
+
+        ion-icon {
+            padding-top: 20%;
+        }
+        .image-matter{
+            padding-left: 5%;
+        }
+        .price{
+            padding-left: 7%;
+        }
+        @media only screen and (max-width: 426px){
+            .logo{
+                width: 100%;
+                height: 100%;
+            }  
+            .buttons{
+                display: none;
+            }       
+            .text {
+            color: aliceblue;
+            overflow: hidden;
+            font-size: 10%;
+            align-items: center;
+
+        } 
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page2">
+        <div class="mens">
+
+            <img src="./images/white-logo.png" alt="logo" class="logo">
+            <div class="buttons">
+
+                <a href="./index.html"><button class="b">
+                        <h3>HOME<h1>
+                    </button></a>
+
+                <a href="./mens.html"><button class="b">
+                        <h3>MENS<h1>
+                    </button></a>
+
+                <a href="./women.html"><button class="b">
+                        <h3>WOMENS<h1>
+                    </button></a>
+
+                <a href="./kids.html"><button class="b">
+                        <h3>KIDS<h1>
+                    </button></a>
+
+                <a href="./accessories.html"><button class="b">
+                        <h3>ACCESSORIES<h1>
+                    </button></a>
+            </div>
+
+
+        </div>
+        <div class="text">
+            <h1>MEN'S LATEST </h1>
+            <p>Detailing is what makes Hexashop different from others</p>
+        </div>
+        <div class="iframe">
+            <div class="image">
+                <img src="./images/6.jpg" alt="">
+                <div class="image-matter">
+                    <h3>Classic Spring</h3>
+                    <div>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </div>
+                </div>
+                <div class="price">$ 199</div>
+            </div>
+            <div class="image">
+
+                <img src="./images/7.jpg" alt="">
+                <div class="image-matter">
+                    <h3>Jackets</h3>
+                    <div>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                </div>
+                <div class="price">$ 149</div>
+            </div>
+            <div class="image">
+                <img src="./images/8.jpg" alt="">
+                <div class="image-matter">
+                    <h3>Sweat Shirt</h3>
+                    <div>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                </div>
+                <div class="price">$ 299</div>
+            </div>
+            <div class="image">
+                <img src="./images/team-member-02.jpg" height="390px" alt="">
+                <div class="image-matter">
+                    <h3>Street Ware</h3>
+                    <div>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="price">$ 99</div>
+            </div>
+            <div class="image">
+                <img src="./images/team-member-03.jpg" height="390px" alt="">
+                <div class="image-matter">
+                    <h3>Summer Styles</h3>
+                    <div>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="price">$ 99</div>
+            </div>
+
+
+            </iframe>
+        </div>
+    </div>
+</body>
+
+</html>
